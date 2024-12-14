@@ -23,7 +23,6 @@ export default async function Page(props: Readonly<PageProps>) {
       },
       // Set prerender to false to return JSON instead of HTML
       prerender: false,
-      cachebust: true,
     })
     // Convert the result to a promise
     .toPromise();
